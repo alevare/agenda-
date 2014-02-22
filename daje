@@ -1,0 +1,42 @@
+public class Rubrica {
+public static int opzione; //opzione per il menù
+private static String nome;	 //nome del contatto	
+private static String cognome; //cognome del contatto
+private static String n_tel; //numero di telefono del contatto
+
+//costruttore predefinito
+public Rubrica(){
+nome=null;
+cognome=null;
+n_tel=null;
+}
+
+//imposta il nome
+public static void setNome(String N){
+nome=N;
+}
+
+//imposta il cognome
+public static void setCognome(String C){
+cognome=C;
+}
+
+//imposta numero di telefono
+public static void setNtel(String Ntel){
+n_tel=Ntel;
+}
+
+//preleva nome
+public String getNome(){
+return nome;
+}
+//preleva cognome
+public String getCognome(){
+return cognome;
+}
+//preleva numero di telefono
+public String getNtel(){
+return n_tel;
+}
+
+}
